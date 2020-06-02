@@ -1,0 +1,16 @@
+{
+  "name": "testVuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wb121017405/testVuepress.git",
+  "author": "wb121017405 <121017405@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "deploy.sh"
+  }
+}
